@@ -1,0 +1,145 @@
+
+#index-background {
+    background-image: url(bg/wall.png)
+}
+
+#tech-background {
+    background-color: black;
+}
+
+#content {
+    position: absolute;
+    left: 25%;
+    background-color: #EEF2FF;
+    width: 50.5%;
+    border: solid black;
+
+}
+
+#tech-content {
+    position: absolute;
+    left: 25%;
+    background-color: black;
+    width: 50.5%;
+    border: solid #00ff9f;
+
+}
+
+#blog {
+    position: absolute;
+    left: 25%;
+    background-color: #EEF2FF;
+    width: 50.5%;
+    border: solid black;
+
+}
+
+#home {
+    position: absolute;
+    left: 25%;
+    background-color: #EEF2FF;
+    width: 50.5%;
+    max-height: 80%;
+    display: flex;
+    border: solid black;
+}
+
+#home-nav {
+    font-size: 25px;
+    display:block;
+} 
+
+#image {
+   width: 40%;
+   padding-left: 20%;
+}
+
+.space {
+   padding-bottom: 20%;
+}
+
+.links {
+   padding-bottom: 3%;
+}
+
+li {
+   list-style: none;
+}
+
+#banner {
+    width: 40%;
+    padding-left: 30%;
+    display: block;
+}
+
+#social-buttons {
+    position: relative;
+    left: 30%;
+    padding-top: 10%;
+}
+
+.social {
+    padding-right: 2%;
+}
+
+.social:hover {
+    animation-name: wiggle;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+dt {
+   font-size: 20px;
+}
+ dd {
+   padding-bottom: 2%;
+ }
+ 
+.list-section {
+   padding-top: 10%;
+   padding-left: 30%;
+ }
+ 
+#blocky {
+   display: block;
+   padding-top: 1%;
+ }
+ 
+ #item {
+   display: inline-block;
+   padding-left: 5%
+ }
+ 
+ .mod-link {
+   position: relative;
+   left: 40%;
+ }
+
+.tech-header {
+   padding-top: 10%;
+   padding-left: 30%;
+   color: white;
+ }
+
+.tech-test {
+   color: white;
+}
+
+#ascii {
+   width: 40%;
+   padding-left: 30%;
+   display: block;
+   color: white;
+}
+
+#rss {
+   padding-left: 45%;
+}
+@keyframes wiggle {
+         0% { transform: translateX(0px); }
+         20%{ transform: translateX(10px); }
+         40%{ transform: translateX(20px): }
+         60%{ transform: translateX(20px); }
+         80%{ transform: translateX(10px); }
+         0%{ transform: translateX(0px); }
+}
