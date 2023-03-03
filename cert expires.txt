@@ -1,8 +1,0 @@
-feburary 21 2023
-
-renew ssl certificates lets encrypt
-
-domains:
-
-goodboyjojo.com
-www.goodboyjojo.com
