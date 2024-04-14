@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jojo's place</title>
+    <!-- The description is not directly visible on the page. But it can show up in certain places like search engines. Probably unnecessary for most pages in your blog. -->
+    <meta name="description" content="Zonelets is a scrappy blogging workflow designed to encourage creative fun on the internet!">
+    <!-- This specifies the favicon (little icon on the browser tab) -->
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon"/>
+    <!-- This helps our site look consistent across devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <!-- Here's the link to our CSS stylesheet! -->
+    <link href="./style/style.css" rel="stylesheet" type="text/css" media="all">    
+  </head>
+  <body>
+    <div id="container">
+    <div id="header">This site requires JavaScript!</div>
+    <div id="content">    
+      
+      
+      <h1 id="title">Welcome to my blog!</h1>
+      
+      <img id="left" src="images/pikachu.png">
+      
+      <p>
+		  hello everybody, welcome to my website. I hope you have fun reading my blog and other things i share here. Here is my rss feed ==> <a href="https://www.google.com/">RSS FEED</a>
+      </p>
+      
+      <img src="images/switch.png">
+      <img src="images/eyes.gif">
+      <img src="images/drpepper.gif">
+      <img src="images/firefox.gif">
+      <img src="images/piracy.gif">
+      <img src="images/legalize2.gif">
+      
+      <!-- webamp code -->
+    <div id="winamp">
+      <div id="app"></div>
+      <script src="https://unpkg.com/webamp"></script>
+      <script>
+      const Webamp = window.Webamp;
+      const webamp = new Webamp({
+        availableSkins: [
+          {
+            url: "https://archive.org/download/winampskins_Neon_Genesis_Evangelion_-_AR_Eva_Matrix_-_Matrix/Neon%20Genesis%20Evangelion%20-%20AR%20Eva%20Matrix%20-%20Matrix.wsz",
+            name: "Neon Genesis Evangelion",
+          },
+          {
+            url: "https://archive.org/download/winampskin_spirited_away_chihiro_by_misakichan/spirited_away_chihiro_by_misakichan.wsz",
+            name: "sprited away",
+          },
+           {
+            url: "https://archive.org/download/winampskins_Cowboy_Bebop_-_Wanted/Cowboy%20Bebop%20-%20Wanted.wsz",
+            name: "cowboy bebop",
+          },
+           {
+            url: "https://archive.org/download/winampskins_Inuyasha_-_Together_Always/Inuyasha%20-%20Together%20Always.wsz",
+            name: "inuyasha",
+          },
+        ],
+        initialTracks: [
+          {
+            metaData: {
+              artist: "DJ Mike Llama",
+              title: "Llama Whippin' Intro",
+            },
+            url: "https://cdn.jsdelivr.net/gh/captbaritone/webamp@43434d82cfe0e37286dbbe0666072dc3190a83bc/mp3/llama-2.91.mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "cowboy bebop ending theme",
+            },
+            url: "songs/Cowboy Bebop Ending Theme.mp3",
+            duration: 10.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "Dragon ball theme",
+            },
+            url: "songs/Dragon ball  theme.mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "fist of the north star theme",
+            },
+            url: "songs/fist of the north star theme.mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "inuyasha ending theme",
+            },
+            url: "songs/InuYasha End theme.mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "neon genesis evangelion ending theme",
+            },
+            url: "songs/Neon Genesis Evangelion ending theme..mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "one piece theme",
+            },
+            url: "songs/One Piece theme Lyrics.mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "sailor moon theme",
+            },
+            url: "songs/Sailor Moon Opening theme.mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "samurai champloo ending theme",
+            },
+            url: "songs/Samurai Champloo Ending Theme .mp3",
+            duration: 5.322286,
+          },
+           {
+            metaData: {
+              artist: "",
+              title: "serial experiments lain theme",
+            },
+            url: "songs/serial experiments lain theme.mp3",
+            duration: 5.322286,
+          },
+           
+         ],
+       initialSkin: {
+    url: "https://archive.org/download/winampskins_Inuyasha_-_Together_Always/Inuyasha%20-%20Together%20Always.wsz"
+  },
+      });
+
+      // Returns a promise indicating when it's done loading.
+      webamp.renderWhenReady(document.getElementById("app"));
+          webamp.renderWhenReady(app);
+      </script>
+    </div>
+    <!-- end of webamp code -->
+            
+      <div id="recentpostlistdiv"></div>
+      
+    </div> <!-- end of div id="content" -->
+    <div id="footer"></div>
+    </div> <!-- end of div id="container" -->    
+  <!-- Here's the link to our JavaScript! -->
+  <script src="./script.js"></script>
+  </body>
+</html>

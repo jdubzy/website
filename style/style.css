@@ -1,0 +1,206 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: #436a7b;
+  background-image: url('../images/wall.png');
+	background-position: top;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+}
+
+p {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+}
+
+hr {
+  border: solid #c7b591;
+  border-width: 2px 0 0 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .small {
+    max-width: 60%;
+    height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #34436f;
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+#container {
+  margin: 3em auto;
+  width: 90%;
+	max-width: 800px;
+	background-color: #EEF2FF;
+  color: #151515; 
+  outline-color: #a9a9a9;
+  outline-style: ridge;
+  outline-width: 4px;
+  outline-offset: 0;
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+}
+
+
+/*HEADER STYLE*/
+#header {
+  background-color: #3aa9ec;
+  padding: 0 5%;
+  border-color: #a9a9a9;
+  border-style: ridge;
+  border-width: 0 0 4px 0;
+}
+
+#header ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+#header li {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+
+#header li a {
+  color: white;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+#header li a:hover {
+  text-decoration: underline;
+}
+
+/*POST LIST STYLE*/
+#postlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/*FOOTER STYLE*/
+#footer {
+  font-size: 0.8em;
+  padding: 0 5% 10px 5%;
+}
+
+#left {
+  position: relative;
+  left: 35%
+}
+#title {
+  position:relative;
+  left: 20%;
+}
+
+#links-bottom {
+   position: relative;
+   left: 27%;
+}
+
+#links-top {
+   position: relative;
+   left: 20%;
+}
+
+#social-buttons {
+    position: relative;
+    left: 30%;
+    padding-top: 3%;
+}
+
+.social:hover {
+    animation-name: wiggle;
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes wiggle {
+         0% { transform: translateX(0px); }
+         20%{ transform: translateX(10px); }
+         40%{ transform: translateX(20px); }
+         60%{ transform: translateX(20px); }
+         80%{ transform: translateX(10px); }
+         0%{ transform: translateX(0px); }
+}
+
+#winamp {
+    position: absolute;
+    left: 300px;
+}
+
+::selection {
+    background-color: transparent;
+    color: #000;
+}
+
+ #item {
+   display: inline-block;
+   padding-left: 5%
+ }
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+    border: 1px solid midnightblue;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
