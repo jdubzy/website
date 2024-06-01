@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>jojo's blog/</title>
+		<link>https://www.goodboyjojo.com/</link>
+		<description>jojo's personal blog</description>
+		
+		<item>
+			<title>javascript</title>
+			<link>https://goodboyjojo.com/posts/2024-05-20-learning-javascript.html</link>
+			<description>
+				 hello everybody reading this I've been teaching myself javascript so i can make web games and apps for fun. 
+		         i have a couple of ideas of what i want to make and mabye i can make my ideas a reality after some practice. 
+		         i remember when i was in college they tried to teach me javascript but most of it went over my head and i had 
+		         a bunch of things going on in my life then so i dropped out of college after one semester. im in a better place 
+		         now and decided to self-teach instead of going back to college.
+			</description>
+		</item>
+		
+		<item>
+			<title>First post</title>
+			<link>https://goodboyjojo.com/posts/2024-04-13-First-post.html</link>
+			<description>
+				 hello everybody this is jojo and i would like to announce that im using zonelets for my website.
+				 I was goofing around on itch looking at the random stuff hosted there and thats where i found zonelets.
+				 I thought it would be neat to play around with it and use it for my website. so yeah that's pretty much it
+			</description>
+		</item>
+			
+	</channel>
+</rss>

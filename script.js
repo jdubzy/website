@@ -34,7 +34,8 @@ let postsArray = [
 //[ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ],
 //[ "posts/2020-11-10-My-Third-Post-Example.html" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html" ],
-[ "posts/2024-04-13-First-post.html" ] ];
+[ "posts/2024-04-13-First-post.html" ], 
+[ "posts/2024-05-20-learning-javascript.html" ] ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -70,8 +71,7 @@ let headerHTML = '<div id="links-top"><ul> <li><a href="' + relativePath + '/ind
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
-let footerHTML = "<hr><p>made in good fun by webmaster jojo</p>";
-
+let footerHTML = "<hr> made in good fun by jojo"
 //To do the following stuff, we want to know where we are in the posts array (if we're currently on a post page).
 let currentIndex = -1;
 let currentFilename = url.substring(url.lastIndexOf('posts/'));
