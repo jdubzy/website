@@ -64,7 +64,7 @@ if ( url.includes("posts/") ) {
 let headerHTML = '<div id="links-top"><ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
 '<li><a href="' + relativePath + '/about.html">About</a></li>' + 
-'<li><a href="https://goodboyjojo.123guestbook.com/">Guestbook</a></li> </ul></div>' +
+'<li><a href="https://jojo.atabook.org/">Guestbook</a></li> </ul></div>' +
 '<div id="links-bottom"><li><a href="' + relativePath + '/games.html"> My Games</a></li> </ul>' +
 '<li><a href="' + relativePath + '/links.html">Links</a></li> </ul>' +
 '<li><a href="' + relativePath + '/not_found.html">mods</a></li> </ul></div>';
