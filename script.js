@@ -61,13 +61,13 @@ if ( url.includes("posts/") ) {
 }
 
 //Generate the Header HTML, a series of list items containing links.
-let headerHTML = '<div id="links-top"><ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
-'<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
-'<li><a href="' + relativePath + '/about.html">About</a></li>' + 
+let headerHTML = '<div id="links-top"><ul> <li><a href="https://goodboyjojo.com/">Home</a></li>' + 
+'<li><a href="https://goodboyjojo.com/archive.html">Archive</a></li>' +
+'<li><a href="https://goodboyjojo.com/about.html">About</a></li>' + 
 '<li><a href="https://jojo.atabook.org/">Guestbook</a></li> </ul></div>' +
-'<div id="links-bottom"><li><a href="' + relativePath + '/games.html"> My Games</a></li> </ul>' +
-'<li><a href="' + relativePath + '/links.html">Links</a></li> </ul>' +
-'<li><a href="' + relativePath + '/not_found.html">mods</a></li> </ul></div>';
+'<div id="links-bottom"><li><a href="https://goodboyjojo.com/games.html"> My Games</a></li> </ul>' +
+'<li><a href="https://goodboyjojo.com/links.html">Links</a></li> </ul>' +
+'<li><a href="https://goodboyjojo.com/not_found.html">mods</a></li> </ul></div>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
