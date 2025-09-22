@@ -223,3 +223,8 @@ table-down {
    position: relative;
    left: 5%;
 }
+#game-card {
+    position: relative;
+    left: 20%;
+    padding-top: 3%;
+}
