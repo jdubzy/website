@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- This page shows up when someone tries to go to a page on your site that doesn't exist! E.g. if someone had linked to a blog post that you later deleted. -->
+<html>
+  <head>
+    <title>cmd ctf</title>
+    <meta name="author" content="Marina Kittaka">
+    <!-- This specifies the favicon (little icon on the browser tab) -->
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon"/>
+    <!-- Setting the viewport scale does most of the work in making the site readable whether you're on a phone or desktop computer ("responsive design") -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <!-- Here's the link to our CSS stylesheet! -->
+    <link href="../../style/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="../../style/prism.css">    
+  </head>
+  <body>
+    <div id="container">
+    <!-- Don't put content in "header" div! It will be replaced! If JavaScript is disabled, the following note will appear. -->
+    <div id="header">This site requires JavaScript!</div>
+    <div id="content">    
+		<p>
+			hello everybody this is jojo and this is my writeup of cmdchallenge where i go through all the levels and explain each level as i do them. we that being said lets begin.
+		</p>
+		
+		<h1>level 1</h1>
+		<img src="images/level1.png">
+		<p>
+			as you can see with the screenshot above the answer is using the echo command to print the phrase hello world to the screen. you can also use printf but i chose to use echo
+			to keep it simple.
+			<p>
+			<code class="language-sh">
+				echo "hello world"
+			</code>
+		    </p>
+		</p>
+		
+		<h1>level 2</h1>
+		<img src="images/level2.png">
+		<p>
+			on level 2 all you need to do is to print the current working directory. you can do this easily with the pwd command
+			<p>
+			<code class="language-sh">
+				pwd
+			</code>
+		    </p>
+		</p>
+		
+		<h1>level 3</h1>
+		<img src="images/level3.png">
+		<p>
+			on level 3 all you need to do is to list all the files in the current directory. you can easily do that with the ls command.
+			<p>
+			<code class="language-sh">
+				ls
+			</code>
+		    </p>
+		</p>
+		
+		<h1>level 4</h1>
+		<img src="images/level4.png">
+		<p>
+			on level 4 all you need to do is print the contents of access.log to the command line. this can be done by using the cat command
+			<p>
+			<code class="language-sh">
+				cat acess.log
+			</code>
+		    </p>
+		</p>
+		
+		<h1>level 5</h1>
+		<img src="images/level5.png">
+		<p>
+			on level 5 all you need to do is print the last 5 lines of access.log. you can do this with the tail command and the n flag arguement.
+			there are two commands: head and tail. head reads from top to bottom and tail reads from bottom to top.the n flag specifys how many lines
+			to output.
+			<p>
+			<code class="language-sh">
+				tail -n 5 access.log
+			</code>
+		    </p>
+		</p>
+		
+		<h1>level 6</h1>
+		<img src="images/level6.png">
+		<p>
+			on level 6 all you need to do is make a new file called "take-the-command-challenge" with the touch command.
+			<p>
+			<code class="language-sh">
+				touch take-the-command-challenge
+			</code>
+		    </p>
+		</p>
+		
+		<h1>level 7</h1>
+		<img src="images/level7.png">
+		<p>
+			on level 7 all you need to do is make a tmp directory with another directory called files within it. to do that
+			you can use the mkdir command with the -p flag. the mkdir command makes a directory and the -p flag specifys making
+			a parent or parents directory.
+			<p>
+			<code class="language-sh">
+				mkdir -p tmp/files
+			</code>
+		    </p>
+		</p>
+		
+		<h1>level 8</h1>
+		<img src="images/level8.png">
+		<p>
+			on level 8 all you need to do is copy the "take-the-command-challenge" file to the tmp/files directory. you can easily do that
+			with the cp command.
+		</p>
+			<code class="language-sh">
+				cp take-the-command-challenge tmp/files
+			</code>
+		
+		<h1>level 9</h1>
+		<img src="images/level9.png">
+		<p>
+			on level 9 all you need to do is move the "take-the-command-challenge" file to the tmp/files directory. you can easily do that
+			with the mv command.
+		</p>
+			<code class="language-sh">
+				mv take-the-command-challenge tmp/files
+			</code>
+		
+    </div> <!-- end of div id="content" -->
+    <div id="footer"></div>
+    </div> <!-- end of div id="container" -->
+  <script src="../../script.js"></script>
+  <script src="../code/prism.js"></script>
+  </body>
+</html>

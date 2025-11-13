@@ -228,3 +228,17 @@ table-down {
     left: 20%;
     padding-top: 3%;
 }
+
+.shrine-list {
+    position: relative;
+    list-style-type: none;
+    left: 20%;
+}
+.modlink {
+position: relative;
+left: 40%;
+}
+.center {
+position: relative;
+left: 1%;
+}

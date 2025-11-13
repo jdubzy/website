@@ -37,7 +37,8 @@ let postsArray = [
 [ "posts/2024-04-13-First-post.html" ], 
 [ "posts/2024-05-20-learning-javascript.html" ],
 [ "posts/2025-05-03-I-miss-the-old-net.html"],
-[ "posts/2025-09-04-cyberpunk-is-now.html"], ];
+[ "posts/2025-09-04-cyberpunk-is-now.html"], 
+[ "posts/2025-11-03-crypto-lost-its-soul.html"],];
 
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -70,7 +71,7 @@ let headerHTML = '<div id="links-top"><ul> <li><a href="https://goodboyjojo.com/
 '<li><a href="https://jojo.atabook.org/">Guestbook</a></li> </ul></div>' +
 '<div id="links-bottom"><li><a href="https://goodboyjojo.com/games.html"> My Games</a></li> </ul>' +
 '<li><a href="https://goodboyjojo.com/links.html">Links</a></li> </ul>' +
-'<li><a href="https://goodboyjojo.com/not_found.html">mods</a></li> </ul></div>';
+'<li><a href="https://goodboyjojo.com/mods.html">mods</a></li> </ul></div>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
