@@ -1,0 +1,111 @@
+body {
+   background-image: url('../matrix.gif');
+   background-size: cover; 
+   background-repeat: repeay-y;
+    /*centers items on the cross-axis (y by default)*/
+}
+
+#container {
+  margin: 3em auto;
+  width: 90%;
+	max-width: 800px;
+	background-color: #0b0d17;
+  color: #151515; 
+  outline-color: #bd00ff;
+  outline-style: ridge;
+  outline-width: 4px;
+  outline-offset: 0;
+}
+
+.item {
+  display: flex;
+  box-sizing: border-box; /* Ensures size includes border/padding */
+  justify-content: space-evenly; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+  gap: 50px;
+}
+
+p, dd, dt {
+  color: white;
+}
+
+.nav-links {
+  display: flex; /* Makes the list items horizontal */
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px; /* Modern way to add space between links */
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center;
+}
+
+a {
+  color: #00b8ff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+.banner {
+   padding-top: 100px;
+}
+
+#raindrop {
+   font-size: 45px;
+   position: relative;
+   left: 32%;
+}
+
+#social-buttons {
+    position: relative;
+    left: 30%;
+    padding-top: 3%;
+}
+
+.social:hover {
+    animation-name: wiggle;
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes wiggle {
+         0% { transform: translateX(0px); }
+         20%{ transform: translateX(10px); }
+         40%{ transform: translateX(20px); }
+         60%{ transform: translateX(20px); }
+         80%{ transform: translateX(10px); }
+         0%{ transform: translateX(0px); }
+}
+
+#item {
+   display: inline-block;
+   padding-top: 30px;
+   padding-left: 5%
+ }
+
+.modlink {
+   position: relative;
+   left: 40%;
+}
+
+.center {
+   position: relative;
+   left: 30%;
+   
+}
+
+#download {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.img-padding {
+   padding: 30px;
+}
